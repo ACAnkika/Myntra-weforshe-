@@ -1,0 +1,103 @@
+body {
+  background: linear-gradient(135deg, #f13ab1, #ff69b4); 
+  margin: 0; 
+  font-family: 'Arial', sans-serif; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  width: 100%;
+  max-width: 900px;
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center; 
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.myntra-logo {
+  width: 150px;
+  margin-bottom: 20px;
+  border: 5px solid #f13ab1; /* Add a pink border */
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto; /* Center the logo */
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  font-size: 4em;
+  margin-bottom: 20px; 
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.myntra-button {
+  background-color: #fff;
+  color: #f13ab1; 
+  padding: 10px 20px;
+  border: 2px solid #f13ab1;
+  border-radius: 30px;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: all 0.3s ease;
+}
+
+.myntra-button:hover {
+  background-color: #f13ab1;
+  color: #fff;
+}
+
+input[type="file"] {
+  display: none; /* Hide the default file input */
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #fff;
+  color: #f13ab1; 
+  border: 2px solid #f13ab1;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+.custom-file-upload:hover {
+  background-color: #f13ab1;
+  color: #fff;
+}
+
+.custom-file-upload .fas {
+  margin-right: 10px;
+}
+
+video {
+  margin-top: 20px;
+  border: 2px solid #f13ab1;
+  border-radius: 10px;
+}
+
+.upload-message {
+  color: green;
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+p{
+ text-align: center;
+}

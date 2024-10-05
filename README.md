@@ -1,16 +1,17 @@
 # Myntra-weforshe-
-This project was developed as part of the Myntra "We for She" hackathon, focusing on innovative solutions to enhance user engagement and promote sustainability in the fashion ecosystem. Our team successfully advanced to the third round, showcasing three key features: Myntra Thrift, SwipFit, and Reel.
+Myntra We for She: MyntraPop, SwipFit, and Reel
+This project was developed as part of the Myntra "We for She" hackathon, focusing on innovative solutions to enhance user engagement and improve the shopping experience. Our team successfully advanced to the third round, showcasing three key features: MyntraPop, SwipFit, and Reel.
 
 Features
-1. Myntra Thrift
-Myntra Thrift is an exclusive feature designed to promote upcycling and recycling of clothing. It allows users to:
+1. MyntraPop
+MyntraPop offers a revolutionary way to shop by utilizing generative AI. Users can:
 
-Buy, sell, or donate clothes in a simple and intuitive way.
-Donate clothes by submitting an online request for pickup, after which the items are collected from the user's location.
-Earn rewards in the form of cash points for donated items.
-By encouraging users to contribute to a more sustainable fashion ecosystem, Myntra Thrift addresses both consumer needs and environmental concerns.
+Upload an image of any product they like (clothing, accessories, etc.).
+Instantly receive suggestions for similar items available on Myntra.
+Benefit from advanced AI algorithms that analyze the uploaded image, create a detailed product description, and match it with similar Myntra products.
+This intuitive and AI-driven feature simplifies the shopping process, making it effortless for users to find their desired styles.
 
-Tech Stack: React (Frontend)
+Tech Stack: Python (Backend, AI), React (Frontend)
 2. Myntra SwipFit
 Myntra SwipFit is a Gen Z-inspired feature that makes selecting clothes more fun and interactive. Users can:
 
